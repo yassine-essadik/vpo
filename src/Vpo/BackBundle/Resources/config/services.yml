@@ -1,0 +1,11 @@
+services:
+#    vpo_back.example:
+#        class: Vpo\BackBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    vpo_back.message_generator:
+        class: Vpo\BackBundle\Service\MessageGenerator
+        arguments: []
+    vpo_back.product_utils:
+        class: Vpo\BackBundle\Service\ProductUtils
+        arguments: ["@doctrine.orm.entity_manager"]
+    

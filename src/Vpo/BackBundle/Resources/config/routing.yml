@@ -1,0 +1,3 @@
+vpo_back_homepage:
+    path:     /admin
+    defaults: { _controller: VpoBackBundle:Default:index }
